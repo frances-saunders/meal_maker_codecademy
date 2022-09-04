@@ -1,3 +1,6 @@
+//This script fulfills the project reqs for "Meal Maker" in Codecademy
+
+//sets menu with 1 item
 const menu = {
   _meal: "",
   _price: 0,
@@ -26,5 +29,5 @@ const menu = {
 menu.meal = 'Roast Beef Over Rice';
 menu.price = 5.50;
 
-
+//prints special with price
 console.log(menu.todaysSpecial);
